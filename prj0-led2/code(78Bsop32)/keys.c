@@ -1,10 +1,13 @@
 #define __keys_c
 #include "includeAll.h"
 //=============================================================================
+static uint8_t tempKeyValue = D_keyNull;
 void GetKeys() {
+	Delay(20);
   if (P_key1 == 0) {
-		keyValue = D_keyValue1;
+		tempKeyValue = D_keyValue1;
   } else {
-		keyValue = D_keyNull;
+		keyValue = 	tempKeyValue;
+			tempKeyValue =D_keyNull;
   }
 }

@@ -12,11 +12,10 @@ void main() {
     //喂狗
     F_clearWDT();   //清除看门狗
 		GetKeys();
-  if (D_keyValue1 == keyValue) {
-    F_ledNeg();
-  }
-  keyValue = D_keyNull;
-  }
+    if (D_keyValue1 == keyValue) {
+        F_ledNeg();
+        }
+     }
 }
 
 
