@@ -12,7 +12,9 @@ void main() {
 		
 		
     F_clearWDT();	  //喂狗
-		F_ledcom_Off();
+		F_ledcom_On();
+		P_led1=1;
+		P_led2=1;
     //实现任务
     //TimeProcess();
     //TaskSetting();

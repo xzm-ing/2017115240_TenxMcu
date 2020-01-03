@@ -2,9 +2,11 @@
 #define __display_h
 // Hal: exp: #define P_ledcom P10 -----------------
 #define P_ledcom P1_0
+#define P_led1 P1_4
+#define P_led2 P1_2
 // Const: exp: #define D_data 1 ----------------
-#define D_ledcom_On 1  //高电位亮
-#define D_ledcom_Off 0 //低点位灭
+#define D_ledcom_Off 1  //高电位灭
+#define D_ledcom_On 0 //低点位亮
 // Globle Var -----------------------------------------
 #ifdef __display_c
 
