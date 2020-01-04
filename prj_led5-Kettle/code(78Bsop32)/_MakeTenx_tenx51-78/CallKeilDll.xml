@@ -5,5 +5,5 @@
 	<DllName>SampTarg</DllName>
 	<OutFileName>tenx51-78</OutFileName>
 	<OutFolderName>.\</OutFolderName>
-	<DllFolderPath>D:\Keil_v5\</DllFolderPath>
+	<DllFolderPath>E:\SCM\keil5\</DllFolderPath>
 </CallKeilDll>
